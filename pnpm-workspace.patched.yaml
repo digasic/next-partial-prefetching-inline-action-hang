@@ -1,0 +1,3 @@
+# Variant "patched": rename to pnpm-workspace.yaml, run `pnpm install`, rebuild.
+patchedDependencies:
+  "next@16.4.1": patches/next@16.4.1.patch
