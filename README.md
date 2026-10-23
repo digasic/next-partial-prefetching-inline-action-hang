@@ -25,3 +25,6 @@ the response never ends.
 
 `patches/next@16.4.1.patch` + `pnpm-workspace.patched.yaml` show the one-line fix: rename the
 yaml to `pnpm-workspace.yaml`, `pnpm install`, rebuild — the response closes in ~0.1 s.
+
+Reported as [vercel/next.js#100621](https://github.com/vercel/next.js/issues/100621); the fix with
+an e2e test is [vercel/next.js#100622](https://github.com/vercel/next.js/pull/100622).
